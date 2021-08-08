@@ -1,0 +1,32 @@
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    margin: 0;
+    background-color: white;
+}
+hr{
+    width: 200px;
+}
+h1{
+    text-align: center;
+    padding-top: 70px;
+}
+.contenu{
+    padding: 50px 10%;
+    text-align: center;
+
+    /* ACTIVER AUTOMATIQUEMENT VIA WINDOWS OU APPLICATION*/
+}
+@media(prefers-color-scheme: light){   
+    body{
+        background-color: #fff;
+        color: #333;
+    }
+}
+@media(prefers-color-scheme: dark){
+    body{
+        background-color: #333;
+        color: #f1f1f1;
+    }
+}
